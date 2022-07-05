@@ -3,12 +3,12 @@ public with sharing class UserInfoList {
       public string sDepartment{get;set;}
       public string sCurrentUserDepartment
       {
-            get{return UserInfoListHelper.FindDepartment(UserInfo.getUserId());}
+            get;
             set;
       }
       public List<User> CurrentListofUsers
       {
-            get{return UserInfoListHelper.UserList( UserInfoListHelper.FindDepartment(sCurrentUserDepartment, sDepartment));}
+            get;
             set;
       }
       public integer iUserCount
@@ -18,7 +18,7 @@ public with sharing class UserInfoList {
       }
       public List<selectOption> lstDepartmentOptions
       {
-            get{return UserInfoListHelper.DepartmentKeys();}
+            get;
             set{lstDepartmentOptions = value;}
       }
             
