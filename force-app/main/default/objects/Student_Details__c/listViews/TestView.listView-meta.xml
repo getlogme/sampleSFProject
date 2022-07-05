@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestView</fullName>
+    <columns>NAME</columns>
+    <columns>Course_Name__c</columns>
+    <columns>Grade__c</columns>
+    <columns>marks__c</columns>
+    <columns>Student_Name__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>OWNER.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <label>TestView</label>
+</ListView>

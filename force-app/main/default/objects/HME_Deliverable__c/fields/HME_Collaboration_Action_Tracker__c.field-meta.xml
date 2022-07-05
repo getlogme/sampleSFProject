@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HME_Collaboration_Action_Tracker__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>HME Collaboration Action Tracker</label>
+    <referenceTo>HME_Collaboration_Action_Tracker__c</referenceTo>
+    <relationshipLabel>HME Deliverable</relationshipLabel>
+    <relationshipName>HME_Deliverable</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

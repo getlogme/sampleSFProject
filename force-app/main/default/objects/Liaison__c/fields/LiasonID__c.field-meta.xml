@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LiasonID__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup to the Liason Type object</description>
+    <externalId>false</externalId>
+    <label>Liason ID</label>
+    <referenceTo>Liason_Type__c</referenceTo>
+    <relationshipLabel>Liaisons</relationshipLabel>
+    <relationshipName>Liaisons</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

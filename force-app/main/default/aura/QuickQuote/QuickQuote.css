@@ -1,0 +1,9 @@
+.THIS {
+background-color : rgb(255,255,255);
+}
+.THIS .hide{
+	display:none;
+}
+.THIS .show{
+	display:block;
+}

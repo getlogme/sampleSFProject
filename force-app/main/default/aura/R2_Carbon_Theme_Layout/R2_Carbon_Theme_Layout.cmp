@@ -1,0 +1,26 @@
+<aura:component
+  implements="forceCommunity:themeLayout"
+  access="global"
+  description="R2 Carbon Theme Layout"
+>
+  <aura:attribute name="header" type="Aura.Component[]" required="false" />
+
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+  <aura:attribute name="loaded" type="Boolean" default="flase"/>
+  <ltng:require
+    styles="{!join(',',
+      $Resource.carbon  + '/10.16.0/carbon-theme-layout.css', 
+      $Resource.carbon  + '/10.16.0/carbon-components.min.css', 
+      $Resource.carbon  + '/10.16.0/carbon-components-extension.css',
+      $Resource.ibmdotcom  + '/1.10.1/ibm-dotcom-styles.css')}" 
+      afterScriptsLoaded="{!c.afterScriptsLoaded}" />
+    
+  <aura:if isTrue="{!v.loaded}">
+   <div>
+      {!v.header}
+      <section class="bx--main">
+        {!v.body}
+      </section>
+    </div>  
+    </aura:if>
+</aura:component>

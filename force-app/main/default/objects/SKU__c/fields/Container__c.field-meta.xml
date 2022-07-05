@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Container__c</fullName>
+    <externalId>false</externalId>
+    <label>Container</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1.5 milligrams</fullName>
+                <default>false</default>
+                <label>1.5 milligrams</label>
+            </value>
+            <value>
+                <fullName>Advertising material</fullName>
+                <default>false</default>
+                <label>Advertising material</label>
+            </value>
+            <value>
+                <fullName>Aerosol</fullName>
+                <default>false</default>
+                <label>Aerosol</label>
+            </value>
+            <value>
+                <fullName>Alcohol</fullName>
+                <default>false</default>
+                <label>Alcohol</label>
+            </value>
+            <value>
+                <fullName>Alcohol free</fullName>
+                <default>false</default>
+                <label>Alcohol free</label>
+            </value>
+            <value>
+                <fullName>Bag</fullName>
+                <default>false</default>
+                <label>Bag</label>
+            </value>
+            <value>
+                <fullName>Bar</fullName>
+                <default>false</default>
+                <label>Bar</label>
+            </value>
+            <value>
+                <fullName>Blister pack</fullName>
+                <default>false</default>
+                <label>Blister pack</label>
+            </value>
+            <value>
+                <fullName>Bottle</fullName>
+                <default>false</default>
+                <label>Bottle</label>
+            </value>
+            <value>
+                <fullName>Bowl</fullName>
+                <default>false</default>
+                <label>Bowl</label>
+            </value>
+            <value>
+                <fullName>Box</fullName>
+                <default>false</default>
+                <label>Box</label>
+            </value>
+            <value>
+                <fullName>Can</fullName>
+                <default>false</default>
+                <label>Can</label>
+            </value>
+            <value>
+                <fullName>Carton</fullName>
+                <default>false</default>
+                <label>Carton</label>
+            </value>
+            <value>
+                <fullName>Credit note</fullName>
+                <default>false</default>
+                <label>Credit note</label>
+            </value>
+            <value>
+                <fullName>Divested</fullName>
+                <default>false</default>
+                <label>Divested</label>
+            </value>
+            <value>
+                <fullName>Gel</fullName>
+                <default>false</default>
+                <label>Gel</label>
+            </value>
+            <value>
+                <fullName>Glass bottle</fullName>
+                <default>false</default>
+                <label>Glass bottle</label>
+            </value>
+            <value>
+                <fullName>Jar</fullName>
+                <default>false</default>
+                <label>Jar</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+            <value>
+                <fullName>Mint</fullName>
+                <default>false</default>
+                <label>Mint</label>
+            </value>
+            <value>
+                <fullName>Mug</fullName>
+                <default>false</default>
+                <label>Mug</label>
+            </value>
+            <value>
+                <fullName>No sunscreen</fullName>
+                <default>false</default>
+                <label>No sunscreen</label>
+            </value>
+            <value>
+                <fullName>Not used</fullName>
+                <default>false</default>
+                <label>Not used</label>
+            </value>
+            <value>
+                <fullName>Not uused</fullName>
+                <default>false</default>
+                <label>Not uused</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pack</fullName>
+                <default>false</default>
+                <label>Pack</label>
+            </value>
+            <value>
+                <fullName>Packet</fullName>
+                <default>false</default>
+                <label>Packet</label>
+            </value>
+            <value>
+                <fullName>Patch</fullName>
+                <default>false</default>
+                <label>Patch</label>
+            </value>
+            <value>
+                <fullName>Plastic bottle</fullName>
+                <default>false</default>
+                <label>Plastic bottle</label>
+            </value>
+            <value>
+                <fullName>Poppac</fullName>
+                <default>false</default>
+                <label>Poppac</label>
+            </value>
+            <value>
+                <fullName>Promotional item</fullName>
+                <default>false</default>
+                <label>Promotional item</label>
+            </value>
+            <value>
+                <fullName>Promotional material</fullName>
+                <default>false</default>
+                <label>Promotional material</label>
+            </value>
+            <value>
+                <fullName>Pump</fullName>
+                <default>false</default>
+                <label>Pump</label>
+            </value>
+            <value>
+                <fullName>Regular strength</fullName>
+                <default>false</default>
+                <label>Regular strength</label>
+            </value>
+            <value>
+                <fullName>Roll</fullName>
+                <default>false</default>
+                <label>Roll</label>
+            </value>
+            <value>
+                <fullName>Roll-on</fullName>
+                <default>false</default>
+                <label>Roll-on</label>
+            </value>
+            <value>
+                <fullName>Sachet</fullName>
+                <default>false</default>
+                <label>Sachet</label>
+            </value>
+            <value>
+                <fullName>Soap</fullName>
+                <default>false</default>
+                <label>Soap</label>
+            </value>
+            <value>
+                <fullName>Soft</fullName>
+                <default>false</default>
+                <label>Soft</label>
+            </value>
+            <value>
+                <fullName>Spray</fullName>
+                <default>false</default>
+                <label>Spray</label>
+            </value>
+            <value>
+                <fullName>Stand up can</fullName>
+                <default>false</default>
+                <label>Stand up can</label>
+            </value>
+            <value>
+                <fullName>Stand up tube</fullName>
+                <default>false</default>
+                <label>Stand up tube</label>
+            </value>
+            <value>
+                <fullName>Starter kit</fullName>
+                <default>false</default>
+                <label>Starter kit</label>
+            </value>
+            <value>
+                <fullName>Strip pack</fullName>
+                <default>false</default>
+                <label>Strip pack</label>
+            </value>
+            <value>
+                <fullName>Tub</fullName>
+                <default>false</default>
+                <label>Tub</label>
+            </value>
+            <value>
+                <fullName>Tube</fullName>
+                <default>false</default>
+                <label>Tube</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

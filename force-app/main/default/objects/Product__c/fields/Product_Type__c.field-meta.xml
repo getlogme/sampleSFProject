@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ring</fullName>
+                <default>false</default>
+                <label>Ring</label>
+            </value>
+            <value>
+                <fullName>Chain</fullName>
+                <default>false</default>
+                <label>Chain</label>
+            </value>
+            <value>
+                <fullName>Bangles</fullName>
+                <default>false</default>
+                <label>Bangles</label>
+            </value>
+            <value>
+                <fullName>Mangalsutra</fullName>
+                <default>false</default>
+                <label>Mangalsutra</label>
+            </value>
+            <value>
+                <fullName>Belt</fullName>
+                <default>false</default>
+                <label>Belt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

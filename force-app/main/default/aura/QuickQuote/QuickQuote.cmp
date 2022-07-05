@@ -1,0 +1,94 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<div id="cbody" > 
+		<div aura:id="PrgressBarId" class="slds-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10" role="progressbar">
+	  		<span class="slds-progress-bar__value" style="width: 10%;">
+	    		<span class="slds-assistive-text">Progress: 25%</span>
+	  		</span>
+		</div>
+	
+		<div class="slds-box">
+			<div aura:id="step1"> 	
+				<div class="slds-text-align_center">Help us personalize your experience.</div>
+				<br/>
+				<div class="slds-text-align_center">Do you currently rent or own?</div>
+				<br/>
+				<div class="slds-border_bottom slds-p-left_x-large slds-p-right_x-large">
+				<div class="slds-form slds-form--horizontal">					
+					<div class="slds-form-element">									
+				  		<div class="slds-form-element__control">
+				  			
+				  			<br/>
+						    <span class="slds-radio">
+		                        <input type="radio" id="radio-1" name="options" value="on"/>
+						      <label class="slds-radio__label" for="radio-1">
+						        <span class="slds-radio_faux"></span>
+						        <span class="slds-form-element__label">Own a Home</span>
+						      </label>
+						    </span> 
+						    <span class="slds-radio">
+		                        <input type="radio" id="radio-2" name="options" value="on"/>
+						      <label class="slds-radio__label" for="radio-2">
+						        <span class="slds-radio_faux"></span>
+						        <span class="slds-form-element__label">Pay Rent</span>
+						      </label>
+						    </span>
+						    <span class="slds-radio">
+		                        <input type="radio" id="radio-3" name="options" value="on"/>
+						      <label class="slds-radio__label" for="radio-3">
+						        <span class="slds-radio_faux"></span>
+						        <span class="slds-form-element__label">Other</span>
+						      </label>
+						    </span>
+					  	</div>
+					</div>				
+					</div>	
+					<br/>				
+				</div>
+			</div>
+			
+			<div aura:id="step2"> 	
+				<div class="slds-text-align_center">What is the purpose of your mortgage?</div>
+				<br/>
+				<div class="slds-border_bottom slds-p-left_x-large slds-p-right_x-large">
+				<div class="slds-form slds-form--horizontal">					
+					<div class="slds-form-element">									
+				  		<div class="slds-form-element__control">
+				  			
+				  			<br/>
+						    <span class="slds-radio">
+		                        <input type="radio" id="radio-1" name="options" value="on"/>
+						      <label class="slds-radio__label" for="radio-1">
+						        <span class="slds-radio_faux"></span>
+						        <span class="slds-form-element__label">Own a Home1</span>
+						      </label>
+						    </span> 
+						    <span class="slds-radio">
+		                        <input type="radio" id="radio-2" name="options" value="on"/>
+						      <label class="slds-radio__label" for="radio-2">
+						        <span class="slds-radio_faux"></span>
+						        <span class="slds-form-element__label">Pay Rent1</span>
+						      </label>
+						    </span>
+						    <span class="slds-radio">
+		                        <input type="radio" id="radio-3" name="options" value="on"/>
+						      <label class="slds-radio__label" for="radio-3">
+						        <span class="slds-radio_faux"></span>
+						        <span class="slds-form-element__label">Other1</span>
+						      </label>
+						    </span>
+					  	</div>
+					</div>				
+					</div>	
+					<br/>				
+				</div>
+			</div>
+			
+			<div> 
+				<br/>
+				<button class="slds-button slds-button_brand slds-text-align_left">Back</button> <button class="slds-button slds-button_brand slds-text-align_right" onclick="{!c.nextAction}">Next</button>
+			</div>	
+		</div>
+	</div>
+	
+</aura:component>

@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flavour__c</fullName>
+    <externalId>false</externalId>
+    <label>Flavour</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>10 pack</fullName>
+                <default>false</default>
+                <label>10 pack</label>
+            </value>
+            <value>
+                <fullName>12 pack</fullName>
+                <default>false</default>
+                <label>12 pack</label>
+            </value>
+            <value>
+                <fullName>2 pack</fullName>
+                <default>false</default>
+                <label>2 pack</label>
+            </value>
+            <value>
+                <fullName>3 pack</fullName>
+                <default>false</default>
+                <label>3 pack</label>
+            </value>
+            <value>
+                <fullName>4 pack</fullName>
+                <default>false</default>
+                <label>4 pack</label>
+            </value>
+            <value>
+                <fullName>Acyclovir</fullName>
+                <default>false</default>
+                <label>Acyclovir</label>
+            </value>
+            <value>
+                <fullName>Advertising material</fullName>
+                <default>false</default>
+                <label>Advertising material</label>
+            </value>
+            <value>
+                <fullName>All other flavors</fullName>
+                <default>false</default>
+                <label>All other flavors</label>
+            </value>
+            <value>
+                <fullName>Aloe vera</fullName>
+                <default>false</default>
+                <label>Aloe vera</label>
+            </value>
+            <value>
+                <fullName>Amaretto</fullName>
+                <default>false</default>
+                <label>Amaretto</label>
+            </value>
+            <value>
+                <fullName>Apple</fullName>
+                <default>false</default>
+                <label>Apple</label>
+            </value>
+            <value>
+                <fullName>Apple &amp; peach</fullName>
+                <default>false</default>
+                <label>Apple &amp; peach</label>
+            </value>
+            <value>
+                <fullName>Apple and blackcurrant</fullName>
+                <default>false</default>
+                <label>Apple and blackcurrant</label>
+            </value>
+            <value>
+                <fullName>Ascorbic acid</fullName>
+                <default>false</default>
+                <label>Ascorbic acid</label>
+            </value>
+            <value>
+                <fullName>Assorted</fullName>
+                <default>false</default>
+                <label>Assorted</label>
+            </value>
+            <value>
+                <fullName>Banana</fullName>
+                <default>false</default>
+                <label>Banana</label>
+            </value>
+            <value>
+                <fullName>Benzalkonium chloride</fullName>
+                <default>false</default>
+                <label>Benzalkonium chloride</label>
+            </value>
+            <value>
+                <fullName>Berry</fullName>
+                <default>false</default>
+                <label>Berry</label>
+            </value>
+            <value>
+                <fullName>Berry fruits</fullName>
+                <default>false</default>
+                <label>Berry fruits</label>
+            </value>
+            <value>
+                <fullName>Berryfruit</fullName>
+                <default>false</default>
+                <label>Berryfruit</label>
+            </value>
+            <value>
+                <fullName>Blackberry</fullName>
+                <default>false</default>
+                <label>Blackberry</label>
+            </value>
+            <value>
+                <fullName>Blackcurrant</fullName>
+                <default>false</default>
+                <label>Blackcurrant</label>
+            </value>
+            <value>
+                <fullName>Blackcurrant &amp; cranberry</fullName>
+                <default>false</default>
+                <label>Blackcurrant &amp; cranberry</label>
+            </value>
+            <value>
+                <fullName>Blackcurrent</fullName>
+                <default>false</default>
+                <label>Blackcurrent</label>
+            </value>
+            <value>
+                <fullName>Blueberry</fullName>
+                <default>false</default>
+                <label>Blueberry</label>
+            </value>
+            <value>
+                <fullName>Blueberry &amp; cranberry</fullName>
+                <default>false</default>
+                <label>Blueberry &amp; cranberry</label>
+            </value>
+            <value>
+                <fullName>Caramel</fullName>
+                <default>false</default>
+                <label>Caramel</label>
+            </value>
+            <value>
+                <fullName>Caramel Crunch</fullName>
+                <default>false</default>
+                <label>Caramel Crunch</label>
+            </value>
+            <value>
+                <fullName>Caribean crush</fullName>
+                <default>false</default>
+                <label>Caribean crush</label>
+            </value>
+            <value>
+                <fullName>Cherry</fullName>
+                <default>false</default>
+                <label>Cherry</label>
+            </value>
+            <value>
+                <fullName>Choc Cherry</fullName>
+                <default>false</default>
+                <label>Choc Cherry</label>
+            </value>
+            <value>
+                <fullName>Chocolate</fullName>
+                <default>false</default>
+                <label>Chocolate</label>
+            </value>
+            <value>
+                <fullName>Chocolate Orange</fullName>
+                <default>false</default>
+                <label>Chocolate Orange</label>
+            </value>
+            <value>
+                <fullName>Choline salicylate</fullName>
+                <default>false</default>
+                <label>Choline salicylate</label>
+            </value>
+            <value>
+                <fullName>Citrade</fullName>
+                <default>false</default>
+                <label>Citrade</label>
+            </value>
+            <value>
+                <fullName>Citrus</fullName>
+                <default>false</default>
+                <label>Citrus</label>
+            </value>
+            <value>
+                <fullName>Citrus Burst</fullName>
+                <default>false</default>
+                <label>Citrus Burst</label>
+            </value>
+            <value>
+                <fullName>Citrus clear</fullName>
+                <default>false</default>
+                <label>Citrus clear</label>
+            </value>
+            <value>
+                <fullName>Citrus fruits</fullName>
+                <default>false</default>
+                <label>Citrus fruits</label>
+            </value>
+            <value>
+                <fullName>Citrus mint</fullName>
+                <default>false</default>
+                <label>Citrus mint</label>
+            </value>
+            <value>
+                <fullName>Clean mint</fullName>
+                <default>false</default>
+                <label>Clean mint</label>
+            </value>
+            <value>
+                <fullName>Cola</fullName>
+                <default>false</default>
+                <label>Cola</label>
+            </value>
+            <value>
+                <fullName>Cool Mint</fullName>
+                <default>false</default>
+                <label>Cool Mint</label>
+            </value>
+            <value>
+                <fullName>Coolmint</fullName>
+                <default>false</default>
+                <label>Coolmint</label>
+            </value>
+            <value>
+                <fullName>Cranberry</fullName>
+                <default>false</default>
+                <label>Cranberry</label>
+            </value>
+            <value>
+                <fullName>Cranberry &amp; blackcurrant</fullName>
+                <default>false</default>
+                <label>Cranberry &amp; blackcurrant</label>
+            </value>
+            <value>
+                <fullName>Cranberry + acai</fullName>
+                <default>false</default>
+                <label>Cranberry + acai</label>
+            </value>
+            <value>
+                <fullName>Credit note</fullName>
+                <default>false</default>
+                <label>Credit note</label>
+            </value>
+            <value>
+                <fullName>Dextromethrphan hbr</fullName>
+                <default>false</default>
+                <label>Dextromethrphan hbr</label>
+            </value>
+            <value>
+                <fullName>Discontinued</fullName>
+                <default>false</default>
+                <label>Discontinued</label>
+            </value>
+            <value>
+                <fullName>Divested</fullName>
+                <default>false</default>
+                <label>Divested</label>
+            </value>
+            <value>
+                <fullName>Dyclonine hydrochloride</fullName>
+                <default>false</default>
+                <label>Dyclonine hydrochloride</label>
+            </value>
+            <value>
+                <fullName>Extra fresh</fullName>
+                <default>false</default>
+                <label>Extra fresh</label>
+            </value>
+            <value>
+                <fullName>Flavourless</fullName>
+                <default>false</default>
+                <label>Flavourless</label>
+            </value>
+            <value>
+                <fullName>Fluoride</fullName>
+                <default>false</default>
+                <label>Fluoride</label>
+            </value>
+            <value>
+                <fullName>Fluticasone</fullName>
+                <default>false</default>
+                <label>Fluticasone</label>
+            </value>
+            <value>
+                <fullName>Forest Friut</fullName>
+                <default>false</default>
+                <label>Forest Friut</label>
+            </value>
+            <value>
+                <fullName>Free</fullName>
+                <default>false</default>
+                <label>Free</label>
+            </value>
+            <value>
+                <fullName>Fresh</fullName>
+                <default>false</default>
+                <label>Fresh</label>
+            </value>
+            <value>
+                <fullName>Fresh cleanse</fullName>
+                <default>false</default>
+                <label>Fresh cleanse</label>
+            </value>
+            <value>
+                <fullName>Fresh mint</fullName>
+                <default>false</default>
+                <label>Fresh mint</label>
+            </value>
+            <value>
+                <fullName>Freshmint</fullName>
+                <default>false</default>
+                <label>Freshmint</label>
+            </value>
+            <value>
+                <fullName>Fruit</fullName>
+                <default>false</default>
+                <label>Fruit</label>
+            </value>
+            <value>
+                <fullName>Fruit flavour</fullName>
+                <default>false</default>
+                <label>Fruit flavour</label>
+            </value>
+            <value>
+                <fullName>Guarana</fullName>
+                <default>false</default>
+                <label>Guarana</label>
+            </value>
+            <value>
+                <fullName>Heating action</fullName>
+                <default>false</default>
+                <label>Heating action</label>
+            </value>
+            <value>
+                <fullName>Herbal</fullName>
+                <default>false</default>
+                <label>Herbal</label>
+            </value>
+            <value>
+                <fullName>Honey</fullName>
+                <default>false</default>
+                <label>Honey</label>
+            </value>
+            <value>
+                <fullName>Honey &amp; lemon</fullName>
+                <default>false</default>
+                <label>Honey &amp; lemon</label>
+            </value>
+            <value>
+                <fullName>Honey Lemon</fullName>
+                <default>false</default>
+                <label>Honey Lemon</label>
+            </value>
+            <value>
+                <fullName>Honey-lemon</fullName>
+                <default>false</default>
+                <label>Honey-lemon</label>
+            </value>
+            <value>
+                <fullName>Hot blackcurrant</fullName>
+                <default>false</default>
+                <label>Hot blackcurrant</label>
+            </value>
+            <value>
+                <fullName>Ibuprofen</fullName>
+                <default>false</default>
+                <label>Ibuprofen</label>
+            </value>
+            <value>
+                <fullName>Ice fresh</fullName>
+                <default>false</default>
+                <label>Ice fresh</label>
+            </value>
+            <value>
+                <fullName>Ice mint</fullName>
+                <default>false</default>
+                <label>Ice mint</label>
+            </value>
+            <value>
+                <fullName>Icy fresh</fullName>
+                <default>false</default>
+                <label>Icy fresh</label>
+            </value>
+            <value>
+                <fullName>Intense</fullName>
+                <default>false</default>
+                <label>Intense</label>
+            </value>
+            <value>
+                <fullName>Jalepeno</fullName>
+                <default>false</default>
+                <label>Jalepeno</label>
+            </value>
+            <value>
+                <fullName>Jelly beans</fullName>
+                <default>false</default>
+                <label>Jelly beans</label>
+            </value>
+            <value>
+                <fullName>Laranja</fullName>
+                <default>false</default>
+                <label>Laranja</label>
+            </value>
+            <value>
+                <fullName>Lemon</fullName>
+                <default>false</default>
+                <label>Lemon</label>
+            </value>
+            <value>
+                <fullName>Lemon &amp; Grapefruit</fullName>
+                <default>false</default>
+                <label>Lemon &amp; Grapefruit</label>
+            </value>
+            <value>
+                <fullName>Lemon &amp; Honey</fullName>
+                <default>false</default>
+                <label>Lemon &amp; Honey</label>
+            </value>
+            <value>
+                <fullName>Lemon &amp; lime</fullName>
+                <default>false</default>
+                <label>Lemon &amp; lime</label>
+            </value>
+            <value>
+                <fullName>Lemon caffeine</fullName>
+                <default>false</default>
+                <label>Lemon caffeine</label>
+            </value>
+            <value>
+                <fullName>Lemon zing</fullName>
+                <default>false</default>
+                <label>Lemon zing</label>
+            </value>
+            <value>
+                <fullName>Lemongrass &amp; ginger</fullName>
+                <default>false</default>
+                <label>Lemongrass &amp; ginger</label>
+            </value>
+            <value>
+                <fullName>Lemongrass + ginger</fullName>
+                <default>false</default>
+                <label>Lemongrass + ginger</label>
+            </value>
+            <value>
+                <fullName>Malt</fullName>
+                <default>false</default>
+                <label>Malt</label>
+            </value>
+            <value>
+                <fullName>Malted caramel</fullName>
+                <default>false</default>
+                <label>Malted caramel</label>
+            </value>
+            <value>
+                <fullName>Malted chocolate</fullName>
+                <default>false</default>
+                <label>Malted chocolate</label>
+            </value>
+            <value>
+                <fullName>Mango &amp; Passion</fullName>
+                <default>false</default>
+                <label>Mango &amp; Passion</label>
+            </value>
+            <value>
+                <fullName>Menthol</fullName>
+                <default>false</default>
+                <label>Menthol</label>
+            </value>
+            <value>
+                <fullName>Menthol mint</fullName>
+                <default>false</default>
+                <label>Menthol mint</label>
+            </value>
+            <value>
+                <fullName>Mildmint</fullName>
+                <default>false</default>
+                <label>Mildmint</label>
+            </value>
+            <value>
+                <fullName>Mint</fullName>
+                <default>false</default>
+                <label>Mint</label>
+            </value>
+            <value>
+                <fullName>Mixed</fullName>
+                <default>false</default>
+                <label>Mixed</label>
+            </value>
+            <value>
+                <fullName>Mixed berry</fullName>
+                <default>false</default>
+                <label>Mixed berry</label>
+            </value>
+            <value>
+                <fullName>Mixed citrus</fullName>
+                <default>false</default>
+                <label>Mixed citrus</label>
+            </value>
+            <value>
+                <fullName>Mocha</fullName>
+                <default>false</default>
+                <label>Mocha</label>
+            </value>
+            <value>
+                <fullName>Morango</fullName>
+                <default>false</default>
+                <label>Morango</label>
+            </value>
+            <value>
+                <fullName>N/a</fullName>
+                <default>false</default>
+                <label>N/a</label>
+            </value>
+            <value>
+                <fullName>Na</fullName>
+                <default>false</default>
+                <label>Na</label>
+            </value>
+            <value>
+                <fullName>Nicotene</fullName>
+                <default>false</default>
+                <label>Nicotene</label>
+            </value>
+            <value>
+                <fullName>Nicotine</fullName>
+                <default>false</default>
+                <label>Nicotine</label>
+            </value>
+            <value>
+                <fullName>No Flavor</fullName>
+                <default>false</default>
+                <label>No Flavor</label>
+            </value>
+            <value>
+                <fullName>No flavors</fullName>
+                <default>false</default>
+                <label>No flavors</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+                <label>Not applicable</label>
+            </value>
+            <value>
+                <fullName>Not Used</fullName>
+                <default>false</default>
+                <label>Not Used</label>
+            </value>
+            <value>
+                <fullName>Odor free</fullName>
+                <default>false</default>
+                <label>Odor free</label>
+            </value>
+            <value>
+                <fullName>Orange</fullName>
+                <default>false</default>
+                <label>Orange</label>
+            </value>
+            <value>
+                <fullName>Orange &amp; acai</fullName>
+                <default>false</default>
+                <label>Orange &amp; acai</label>
+            </value>
+            <value>
+                <fullName>Orange &amp; passionfruit</fullName>
+                <default>false</default>
+                <label>Orange &amp; passionfruit</label>
+            </value>
+            <value>
+                <fullName>Orange &amp; raspberry</fullName>
+                <default>false</default>
+                <label>Orange &amp; raspberry</label>
+            </value>
+            <value>
+                <fullName>Orange + acai</fullName>
+                <default>false</default>
+                <label>Orange + acai</label>
+            </value>
+            <value>
+                <fullName>Orange barley</fullName>
+                <default>false</default>
+                <label>Orange barley</label>
+            </value>
+            <value>
+                <fullName>Orange-lemon</fullName>
+                <default>false</default>
+                <label>Orange-lemon</label>
+            </value>
+            <value>
+                <fullName>Original</fullName>
+                <default>false</default>
+                <label>Original</label>
+            </value>
+            <value>
+                <fullName>Oxymetazoline hcl</fullName>
+                <default>false</default>
+                <label>Oxymetazoline hcl</label>
+            </value>
+            <value>
+                <fullName>Paint</fullName>
+                <default>false</default>
+                <label>Paint</label>
+            </value>
+            <value>
+                <fullName>Paracetamol</fullName>
+                <default>false</default>
+                <label>Paracetamol</label>
+            </value>
+            <value>
+                <fullName>Paracetamol &amp; caffeine</fullName>
+                <default>false</default>
+                <label>Paracetamol &amp; caffeine</label>
+            </value>
+            <value>
+                <fullName>Paracetamol (plus)</fullName>
+                <default>false</default>
+                <label>Paracetamol (plus)</label>
+            </value>
+            <value>
+                <fullName>Pepper</fullName>
+                <default>false</default>
+                <label>Pepper</label>
+            </value>
+            <value>
+                <fullName>Peppermint</fullName>
+                <default>false</default>
+                <label>Peppermint</label>
+            </value>
+            <value>
+                <fullName>Pepperrmint</fullName>
+                <default>false</default>
+                <label>Pepperrmint</label>
+            </value>
+            <value>
+                <fullName>Peroxide</fullName>
+                <default>false</default>
+                <label>Peroxide</label>
+            </value>
+            <value>
+                <fullName>Pink Lemonade</fullName>
+                <default>false</default>
+                <label>Pink Lemonade</label>
+            </value>
+            <value>
+                <fullName>Promo material</fullName>
+                <default>false</default>
+                <label>Promo material</label>
+            </value>
+            <value>
+                <fullName>Promotional item</fullName>
+                <default>false</default>
+                <label>Promotional item</label>
+            </value>
+            <value>
+                <fullName>Promotional material</fullName>
+                <default>false</default>
+                <label>Promotional material</label>
+            </value>
+            <value>
+                <fullName>Pseudoephedrine</fullName>
+                <default>false</default>
+                <label>Pseudoephedrine</label>
+            </value>
+            <value>
+                <fullName>Pure white</fullName>
+                <default>false</default>
+                <label>Pure white</label>
+            </value>
+            <value>
+                <fullName>Raspberry</fullName>
+                <default>false</default>
+                <label>Raspberry</label>
+            </value>
+            <value>
+                <fullName>Raspberry &amp; Apple</fullName>
+                <default>false</default>
+                <label>Raspberry &amp; Apple</label>
+            </value>
+            <value>
+                <fullName>Raspberry &amp; Blackberry</fullName>
+                <default>false</default>
+                <label>Raspberry &amp; Blackberry</label>
+            </value>
+            <value>
+                <fullName>Raspberry &amp; blackcurrant</fullName>
+                <default>false</default>
+                <label>Raspberry &amp; blackcurrant</label>
+            </value>
+            <value>
+                <fullName>Raspberry and pomegranate</fullName>
+                <default>false</default>
+                <label>Raspberry and pomegranate</label>
+            </value>
+            <value>
+                <fullName>Regular</fullName>
+                <default>false</default>
+                <label>Regular</label>
+            </value>
+            <value>
+                <fullName>Rutosidum</fullName>
+                <default>false</default>
+                <label>Rutosidum</label>
+            </value>
+            <value>
+                <fullName>Salt</fullName>
+                <default>false</default>
+                <label>Salt</label>
+            </value>
+            <value>
+                <fullName>Single</fullName>
+                <default>false</default>
+                <label>Single</label>
+            </value>
+            <value>
+                <fullName>Smoothmint</fullName>
+                <default>false</default>
+                <label>Smoothmint</label>
+            </value>
+            <value>
+                <fullName>Soft</fullName>
+                <default>false</default>
+                <label>Soft</label>
+            </value>
+            <value>
+                <fullName>Soft mint</fullName>
+                <default>false</default>
+                <label>Soft mint</label>
+            </value>
+            <value>
+                <fullName>Spearmint</fullName>
+                <default>false</default>
+                <label>Spearmint</label>
+            </value>
+            <value>
+                <fullName>Sport orange</fullName>
+                <default>false</default>
+                <label>Sport orange</label>
+            </value>
+            <value>
+                <fullName>Strawberry</fullName>
+                <default>false</default>
+                <label>Strawberry</label>
+            </value>
+            <value>
+                <fullName>Strongmint</fullName>
+                <default>false</default>
+                <label>Strongmint</label>
+            </value>
+            <value>
+                <fullName>Summer berries</fullName>
+                <default>false</default>
+                <label>Summer berries</label>
+            </value>
+            <value>
+                <fullName>Summer berry</fullName>
+                <default>false</default>
+                <label>Summer berry</label>
+            </value>
+            <value>
+                <fullName>Summer fruits</fullName>
+                <default>false</default>
+                <label>Summer fruits</label>
+            </value>
+            <value>
+                <fullName>Supreme</fullName>
+                <default>false</default>
+                <label>Supreme</label>
+            </value>
+            <value>
+                <fullName>Tea tree</fullName>
+                <default>false</default>
+                <label>Tea tree</label>
+            </value>
+            <value>
+                <fullName>Tropical</fullName>
+                <default>false</default>
+                <label>Tropical</label>
+            </value>
+            <value>
+                <fullName>Tutti frutti</fullName>
+                <default>false</default>
+                <label>Tutti frutti</label>
+            </value>
+            <value>
+                <fullName>Vanilla</fullName>
+                <default>false</default>
+                <label>Vanilla</label>
+            </value>
+            <value>
+                <fullName>Variety</fullName>
+                <default>false</default>
+                <label>Variety</label>
+            </value>
+            <value>
+                <fullName>White</fullName>
+                <default>false</default>
+                <label>White</label>
+            </value>
+            <value>
+                <fullName>Whitening</fullName>
+                <default>false</default>
+                <label>Whitening</label>
+            </value>
+            <value>
+                <fullName>Wild berry</fullName>
+                <default>false</default>
+                <label>Wild berry</label>
+            </value>
+            <value>
+                <fullName>Wild rose</fullName>
+                <default>false</default>
+                <label>Wild rose</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

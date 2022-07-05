@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scent__c</fullName>
+    <externalId>false</externalId>
+    <label>Scent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Citrus mint</fullName>
+                <default>false</default>
+                <label>Citrus mint</label>
+            </value>
+            <value>
+                <fullName>Divested</fullName>
+                <default>false</default>
+                <label>Divested</label>
+            </value>
+            <value>
+                <fullName>Extra fresh</fullName>
+                <default>false</default>
+                <label>Extra fresh</label>
+            </value>
+            <value>
+                <fullName>Fresh cleanse</fullName>
+                <default>false</default>
+                <label>Fresh cleanse</label>
+            </value>
+            <value>
+                <fullName>Freshmint</fullName>
+                <default>false</default>
+                <label>Freshmint</label>
+            </value>
+            <value>
+                <fullName>Fruit flavour</fullName>
+                <default>false</default>
+                <label>Fruit flavour</label>
+            </value>
+            <value>
+                <fullName>Heating action</fullName>
+                <default>false</default>
+                <label>Heating action</label>
+            </value>
+            <value>
+                <fullName>Herbal</fullName>
+                <default>false</default>
+                <label>Herbal</label>
+            </value>
+            <value>
+                <fullName>Mildmint</fullName>
+                <default>false</default>
+                <label>Mildmint</label>
+            </value>
+            <value>
+                <fullName>Mint</fullName>
+                <default>false</default>
+                <label>Mint</label>
+            </value>
+            <value>
+                <fullName>Not used</fullName>
+                <default>false</default>
+                <label>Not used</label>
+            </value>
+            <value>
+                <fullName>Orange</fullName>
+                <default>false</default>
+                <label>Orange</label>
+            </value>
+            <value>
+                <fullName>Original</fullName>
+                <default>false</default>
+                <label>Original</label>
+            </value>
+            <value>
+                <fullName>Paracetamol</fullName>
+                <default>false</default>
+                <label>Paracetamol</label>
+            </value>
+            <value>
+                <fullName>Promotional item</fullName>
+                <default>false</default>
+                <label>Promotional item</label>
+            </value>
+            <value>
+                <fullName>Promotional material</fullName>
+                <default>false</default>
+                <label>Promotional material</label>
+            </value>
+            <value>
+                <fullName>Regular</fullName>
+                <default>false</default>
+                <label>Regular</label>
+            </value>
+            <value>
+                <fullName>Smoothmint</fullName>
+                <default>false</default>
+                <label>Smoothmint</label>
+            </value>
+            <value>
+                <fullName>Soft mint</fullName>
+                <default>false</default>
+                <label>Soft mint</label>
+            </value>
+            <value>
+                <fullName>Strawberry</fullName>
+                <default>false</default>
+                <label>Strawberry</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Good</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Good</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/connection.js&quot;)}{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/apex.js&quot;)}
+
+var ids={!GETRECORDIDS($ObjectType.Student_Details__c)} ;
+var query;
+for(var i=0;i&lt;ids.length;i++){
+alert(ids);
+query=&quot;Select testNameSpacema__Grade__c from testNameSpacema__Student_Details__c where id=:&quot;+ids[i];
+testNameSpacema__Student_Details__c testObj= sforce.connection.query(query);
+testObj.testNameSpacema__Grade__c=&quot;Poor Good&quot;;
+}</url>
+</WebLink>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Type_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <label>Record Type Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CC - Cost Centre</fullName>
+                <default>false</default>
+                <label>CC - Cost Centre</label>
+            </value>
+            <value>
+                <fullName>CN - Credit Note</fullName>
+                <default>false</default>
+                <label>CN - Credit Note</label>
+            </value>
+            <value>
+                <fullName>DU - Dummy SKU</fullName>
+                <default>false</default>
+                <label>DU - Dummy SKU</label>
+            </value>
+            <value>
+                <fullName>FG - Finished Goods</fullName>
+                <default>false</default>
+                <label>FG - Finished Goods</label>
+            </value>
+            <value>
+                <fullName>LCP - Locally Customised Pack</fullName>
+                <default>false</default>
+                <label>LCP - Locally Customised Pack</label>
+            </value>
+            <value>
+                <fullName>NA - Other</fullName>
+                <default>false</default>
+                <label>NA - Other</label>
+            </value>
+            <value>
+                <fullName>PI - Promotional Item</fullName>
+                <default>false</default>
+                <label>PI - Promotional Item</label>
+            </value>
+            <value>
+                <fullName>SA - Sample</fullName>
+                <default>false</default>
+                <label>SA - Sample</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

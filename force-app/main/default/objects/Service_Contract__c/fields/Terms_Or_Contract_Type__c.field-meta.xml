@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terms_Or_Contract_Type__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Terms Or Contract Type</label>
+    <referenceTo>Terms_Or_Contract_Type__c</referenceTo>
+    <relationshipLabel>Service Contracts</relationshipLabel>
+    <relationshipName>Service_Contracts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

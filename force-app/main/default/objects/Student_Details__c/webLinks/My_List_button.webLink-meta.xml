@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_List_button</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>My List button</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/connection.js&quot;)}{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/apex.js&quot;)}
+var idArray = {!GETRECORDIDS($ObjectType.Student_Details__c)};
+for(var i=0;i&lt;idArray .length;i++){
+alert(idArray[i]);
+}
+var query=&quot;select testNameSpacema__Student_Name__c,testNameSpacema__Grade__c from testNameSpacema__Student_Details__c where id=&apos;&quot;+idArray[1]+&quot;&apos;&quot;;
+var results=sforce.connection.query(query);
+var records=results.getArray(&quot;records&quot;);
+for (var i=0; i&lt; records.length; i++) {
+var record = records[i];
+alert(record.testNameSpacema__Student_Name__c + &quot; -- &quot; + record.testNameSpacema__Grade__c);
+}
+sforce.apex.execute(&quot;testNameSpacema/CountriesExamp&quot;,&quot;methodDisplay&quot;, {id:idArray });
+window.alert(&quot;Account Id is sent.&quot; );</url>
+</WebLink>

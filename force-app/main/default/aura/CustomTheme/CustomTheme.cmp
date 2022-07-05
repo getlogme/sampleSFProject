@@ -1,0 +1,11 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="This Custome theme for Communities">	
+	<aura:attribute name="header" type="Aura.Component[]" required="false"></aura:attribute>
+    <aura:attribute name="footer" type="Aura.Component[]" required="false"></aura:attribute>
+    
+    <div class="slds-grid slds-grid_vertical">
+	  <div class="slds-container_fluid">{!v.header}</div>
+	  <div class="slds-container_fluid">{!v.body}</div>
+	  <div class="slds-container_fluid">{!v.footer}</div>	  
+	</div>
+
+</aura:component>

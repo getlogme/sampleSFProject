@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_Zone__c</fullName>
+    <externalId>false</externalId>
+    <label>Time Zone</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(GMT+14:00) Line Is. Time (Pacific/Kiritimati)</fullName>
+                <default>false</default>
+                <label>(GMT+14:00) Line Is. Time (Pacific/Kiritimati)</label>
+            </value>
+            <value>
+                <fullName>(GMT+13:00) Phoenix Is. Time (Pacific/Enderbury)</fullName>
+                <default>false</default>
+                <label>(GMT+13:00) Phoenix Is. Time (Pacific/Enderbury)</label>
+            </value>
+            <value>
+                <fullName>(GMT+13:00) Tonga Time (Pacific/Tongatapu)</fullName>
+                <default>false</default>
+                <label>(GMT+13:00) Tonga Time (Pacific/Tongatapu)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

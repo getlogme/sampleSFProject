@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LTA_discount__c</fullName>
+    <externalId>false</externalId>
+    <formula>(IF( LTA_Discount_off_list__c &gt;0, LTA_Discount_off_list__c * List_Price__c ,LTA_Discount_off_CP__c * Contract_price_per_unit__c))</formula>
+    <label>LTA discount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

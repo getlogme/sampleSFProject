@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Picture__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Picture_ID__c==&apos;&apos;,&quot;&quot;,IMAGE(&quot;/servlet/servlet.FileDownload?file=&quot;+ Picture_ID__c , &quot;&quot;,100,100))</formula>
+    <label>Picture</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

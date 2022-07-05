@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>OBJECT_ID</columns>
+    <columns>CountryIsoCode__c</columns>
+    <columns>BB_CTNs_New__c</columns>
+    <columns>BB_CTNs_Existing__c</columns>
+    <columns>HH_CTNs_Existing__c</columns>
+    <columns>HH_CTNs_New__c</columns>
+    <columns>MCC_CTNs_Existing__c</columns>
+    <columns>MCC_CTNs_New__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LookupVGEPLIterationAP__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>LookupVGEPLIterationAP</label>
+    <referenceTo>VGE_PL_Iteration__c</referenceTo>
+    <relationshipLabel>VGE PL Country Summary</relationshipLabel>
+    <relationshipName>VGE_PL_Country_Summary</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

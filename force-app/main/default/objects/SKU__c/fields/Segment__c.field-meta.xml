@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Segment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acne</fullName>
+                <default>false</default>
+                <label>Acne</label>
+            </value>
+            <value>
+                <fullName>Add Milk</fullName>
+                <default>false</default>
+                <label>Add Milk</label>
+            </value>
+            <value>
+                <fullName>Adhesives</fullName>
+                <default>false</default>
+                <label>Adhesives</label>
+            </value>
+            <value>
+                <fullName>Adult Dry Mouth</fullName>
+                <default>false</default>
+                <label>Adult Dry Mouth</label>
+            </value>
+            <value>
+                <fullName>Adult Everyday</fullName>
+                <default>false</default>
+                <label>Adult Everyday</label>
+            </value>
+            <value>
+                <fullName>Adult Gum Health</fullName>
+                <default>false</default>
+                <label>Adult Gum Health</label>
+            </value>
+            <value>
+                <fullName>Allergy/Sinus</fullName>
+                <default>false</default>
+                <label>Allergy/Sinus</label>
+            </value>
+            <value>
+                <fullName>Antacid</fullName>
+                <default>false</default>
+                <label>Antacid</label>
+            </value>
+            <value>
+                <fullName>Anti Parasite</fullName>
+                <default>false</default>
+                <label>Anti Parasite</label>
+            </value>
+            <value>
+                <fullName>Anti-Dandruff</fullName>
+                <default>false</default>
+                <label>Anti-Dandruff</label>
+            </value>
+            <value>
+                <fullName>Antifungal</fullName>
+                <default>false</default>
+                <label>Antifungal</label>
+            </value>
+            <value>
+                <fullName>anti-perspiration</fullName>
+                <default>false</default>
+                <label>anti-perspiration</label>
+            </value>
+            <value>
+                <fullName>Arthritis</fullName>
+                <default>false</default>
+                <label>Arthritis</label>
+            </value>
+            <value>
+                <fullName>Back/Join Pain</fullName>
+                <default>false</default>
+                <label>Back/Join Pain</label>
+            </value>
+            <value>
+                <fullName>Battery Disposable Adult</fullName>
+                <default>false</default>
+                <label>Battery Disposable Adult</label>
+            </value>
+            <value>
+                <fullName>Battery Disposable Kids</fullName>
+                <default>false</default>
+                <label>Battery Disposable Kids</label>
+            </value>
+            <value>
+                <fullName>Breath Freshening</fullName>
+                <default>false</default>
+                <label>Breath Freshening</label>
+            </value>
+            <value>
+                <fullName>Calming &amp; Sleeping</fullName>
+                <default>false</default>
+                <label>Calming &amp; Sleeping</label>
+            </value>
+            <value>
+                <fullName>Cleansers</fullName>
+                <default>false</default>
+                <label>Cleansers</label>
+            </value>
+            <value>
+                <fullName>Cold Sore Treatments</fullName>
+                <default>false</default>
+                <label>Cold Sore Treatments</label>
+            </value>
+            <value>
+                <fullName>Cold/Flu</fullName>
+                <default>false</default>
+                <label>Cold/Flu</label>
+            </value>
+            <value>
+                <fullName>Cough</fullName>
+                <default>false</default>
+                <label>Cough</label>
+            </value>
+            <value>
+                <fullName>Decongestion</fullName>
+                <default>false</default>
+                <label>Decongestion</label>
+            </value>
+            <value>
+                <fullName>Depilatories</fullName>
+                <default>false</default>
+                <label>Depilatories</label>
+            </value>
+            <value>
+                <fullName>Dermatological</fullName>
+                <default>false</default>
+                <label>Dermatological</label>
+            </value>
+            <value>
+                <fullName>Dry Mouth</fullName>
+                <default>false</default>
+                <label>Dry Mouth</label>
+            </value>
+            <value>
+                <fullName>Earcare</fullName>
+                <default>false</default>
+                <label>Earcare</label>
+            </value>
+            <value>
+                <fullName>Enamel Protection</fullName>
+                <default>false</default>
+                <label>Enamel Protection</label>
+            </value>
+            <value>
+                <fullName>Energy Drinks</fullName>
+                <default>false</default>
+                <label>Energy Drinks</label>
+            </value>
+            <value>
+                <fullName>Everyday</fullName>
+                <default>false</default>
+                <label>Everyday</label>
+            </value>
+            <value>
+                <fullName>Femina</fullName>
+                <default>false</default>
+                <label>Femina</label>
+            </value>
+            <value>
+                <fullName>Fixatives</fullName>
+                <default>false</default>
+                <label>Fixatives</label>
+            </value>
+            <value>
+                <fullName>Flavoured Carbs</fullName>
+                <default>false</default>
+                <label>Flavoured Carbs</label>
+            </value>
+            <value>
+                <fullName>Floss &amp; Picks</fullName>
+                <default>false</default>
+                <label>Floss &amp; Picks</label>
+            </value>
+            <value>
+                <fullName>Gastrointestinal</fullName>
+                <default>false</default>
+                <label>Gastrointestinal</label>
+            </value>
+            <value>
+                <fullName>Gum &amp; Lozenge</fullName>
+                <default>false</default>
+                <label>Gum &amp; Lozenge</label>
+            </value>
+            <value>
+                <fullName>Instant</fullName>
+                <default>false</default>
+                <label>Instant</label>
+            </value>
+            <value>
+                <fullName>Kids</fullName>
+                <default>false</default>
+                <label>Kids</label>
+            </value>
+            <value>
+                <fullName>Laxative</fullName>
+                <default>false</default>
+                <label>Laxative</label>
+            </value>
+            <value>
+                <fullName>Low Calorie</fullName>
+                <default>false</default>
+                <label>Low Calorie</label>
+            </value>
+            <value>
+                <fullName>Manual Adult</fullName>
+                <default>false</default>
+                <label>Manual Adult</label>
+            </value>
+            <value>
+                <fullName>Manual Kids</fullName>
+                <default>false</default>
+                <label>Manual Kids</label>
+            </value>
+            <value>
+                <fullName>Migraine</fullName>
+                <default>false</default>
+                <label>Migraine</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Products</fullName>
+                <default>false</default>
+                <label>Miscellaneous Products</label>
+            </value>
+            <value>
+                <fullName>Mouthwash</fullName>
+                <default>false</default>
+                <label>Mouthwash</label>
+            </value>
+            <value>
+                <fullName>Nasal Congestion</fullName>
+                <default>false</default>
+                <label>Nasal Congestion</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pain/Fever/Headache</fullName>
+                <default>false</default>
+                <label>Pain/Fever/Headache</label>
+            </value>
+            <value>
+                <fullName>Premium</fullName>
+                <default>false</default>
+                <label>Premium</label>
+            </value>
+            <value>
+                <fullName>Professional</fullName>
+                <default>false</default>
+                <label>Professional</label>
+            </value>
+            <value>
+                <fullName>Promotional Material</fullName>
+                <default>false</default>
+                <label>Promotional Material</label>
+            </value>
+            <value>
+                <fullName>Sensitive</fullName>
+                <default>false</default>
+                <label>Sensitive</label>
+            </value>
+            <value>
+                <fullName>Shampoo</fullName>
+                <default>false</default>
+                <label>Shampoo</label>
+            </value>
+            <value>
+                <fullName>Skin Care</fullName>
+                <default>false</default>
+                <label>Skin Care</label>
+            </value>
+            <value>
+                <fullName>Skin Health</fullName>
+                <default>false</default>
+                <label>Skin Health</label>
+            </value>
+            <value>
+                <fullName>Smoking Cessation</fullName>
+                <default>false</default>
+                <label>Smoking Cessation</label>
+            </value>
+            <value>
+                <fullName>Soap</fullName>
+                <default>false</default>
+                <label>Soap</label>
+            </value>
+            <value>
+                <fullName>Sore Throat</fullName>
+                <default>false</default>
+                <label>Sore Throat</label>
+            </value>
+            <value>
+                <fullName>Sports Drinks</fullName>
+                <default>false</default>
+                <label>Sports Drinks</label>
+            </value>
+            <value>
+                <fullName>Standard</fullName>
+                <default>false</default>
+                <label>Standard</label>
+            </value>
+            <value>
+                <fullName>Sweetener</fullName>
+                <default>false</default>
+                <label>Sweetener</label>
+            </value>
+            <value>
+                <fullName>Toothpaste</fullName>
+                <default>false</default>
+                <label>Toothpaste</label>
+            </value>
+            <value>
+                <fullName>Topical Analgesics</fullName>
+                <default>false</default>
+                <label>Topical Analgesics</label>
+            </value>
+            <value>
+                <fullName>Total Care</fullName>
+                <default>false</default>
+                <label>Total Care</label>
+            </value>
+            <value>
+                <fullName>Travel Sickness</fullName>
+                <default>false</default>
+                <label>Travel Sickness</label>
+            </value>
+            <value>
+                <fullName>Vms</fullName>
+                <default>false</default>
+                <label>Vms</label>
+            </value>
+            <value>
+                <fullName>Wart Removal</fullName>
+                <default>false</default>
+                <label>Wart Removal</label>
+            </value>
+            <value>
+                <fullName>Weight Control</fullName>
+                <default>false</default>
+                <label>Weight Control</label>
+            </value>
+            <value>
+                <fullName>Whitening Kits</fullName>
+                <default>false</default>
+                <label>Whitening Kits</label>
+            </value>
+            <value>
+                <fullName>Whitening Only Claim</fullName>
+                <default>false</default>
+                <label>Whitening Only Claim</label>
+            </value>
+            <value>
+                <fullName>Whitening Paint</fullName>
+                <default>false</default>
+                <label>Whitening Paint</label>
+            </value>
+            <value>
+                <fullName>Whitening Strips</fullName>
+                <default>false</default>
+                <label>Whitening Strips</label>
+            </value>
+            <value>
+                <fullName>Whitening Total Care</fullName>
+                <default>false</default>
+                <label>Whitening Total Care</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

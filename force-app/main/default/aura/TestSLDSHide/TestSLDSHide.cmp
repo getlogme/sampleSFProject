@@ -1,0 +1,15 @@
+<aura:component implements="force:appHostable,lightning:isUrlAddressable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <div aura:id="DMVReporting" class="slds-hide">
+        DMVReporting1
+    </div>
+    <div aura:id="DMVReporting" class="slds-hide">
+        DMVReporting2
+    </div>
+    <div aura:id="DMVReporting" class="slds-hide">
+        DMVReporting3
+    </div>
+    <div aura:id="DMVReporting" class="slds-hide">
+        DMVReporting4
+    </div>
+</aura:component>

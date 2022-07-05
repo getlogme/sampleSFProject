@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_2_Submission_Start_Date__c</fullName>
+    <description>Stage 2 Submission Start Date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stage 2 Submission Start Date</inlineHelpText>
+    <label>Stage 2 Submission Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

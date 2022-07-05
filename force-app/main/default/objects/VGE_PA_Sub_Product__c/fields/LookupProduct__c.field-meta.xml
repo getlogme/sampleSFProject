@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LookupProduct__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>LookupProduct</label>
+    <referenceTo>VGE_PA_Product__c</referenceTo>
+    <relationshipLabel>VGE PA Sub Product</relationshipLabel>
+    <relationshipName>VGE_PA_Sub_Product</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

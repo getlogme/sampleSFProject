@@ -1,0 +1,8 @@
+<aura:component description="Action to submit a client referral request and update account referral fields"
+				controller="UpdateAccountReferralInfoApex"
+				implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader"
+				>
+
+	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
+
+</aura:component>

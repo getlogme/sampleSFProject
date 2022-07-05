@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Yearly_Total__c</fullName>
+    <externalId>false</externalId>
+    <formula>Baseline_Volume_Week1_units__c  +  Baseline_Volume_Week2_units__c + Baseline_Volume_Week3_units__c + Baseline_Volume_Week4_units__c + Baseline_Volume_Week5_units__c + Baseline_Volume_Week6_units__c + Baseline_Volume_Week7_units__c + Baseline_Volume_Week8_units__c + Baseline_Volume_Week9_units__c + Baseline_Volume_Week10_units__c + Baseline_Volume_Week11_units__c + Baseline_Volume_Week12_units__c + Baseline_Volume_Week13_units__c + Baseline_Volume_Week14_units__c + Baseline_Volume_Week15_units__c + Baseline_Volume_Week16_units__c + Baseline_Volume_Week17_units__c + Baseline_Volume_Week18_units__c + Baseline_Volume_Week19_units__c + Baseline_Volume_Week20_units__c + Baseline_Volume_Week21_units__c + Baseline_Volume_Week22_units__c + Baseline_Volume_Week23_units__c + Baseline_Volume_Week24_units__c + Baseline_Volume_Week25_units__c + Baseline_Volume_Week26_units__c + Baseline_Volume_Week27_units__c + Baseline_Volume_Week28_units__c + Baseline_Volume_Week29_units__c + Baseline_Volume_Week30_units__c + Baseline_Volume_Week31_units__c + Baseline_Volume_Week32_units__c + Baseline_Volume_Week33_units__c + Baseline_Volume_Week34_units__c + Baseline_Volume_Week35_units__c + Baseline_Volume_Week36_units__c + Baseline_Volume_Week37_units__c + Baseline_Volume_Week38_units__c + Baseline_Volume_Week39_units__c + Baseline_Volume_Week40_units__c+ Baseline_Volume_Week41_units__c + Baseline_Volume_Week42_units__c + Baseline_Volume_Week43_units__c +  Baseline_Volume_Week44_units__c + Baseline_Volume_Week45_units__c + Baseline_Volume_Week46_units__c + Baseline_Volume_Week47_units__c + Baseline_Volume_Week48_units__c + Baseline_Volume_Week49_units__c + Baseline_Volume_Week50_units__c + Baseline_Volume_Week51_units__c + Baseline_Volume_Week52_units__c + Baseline_Volume_Week53_units__c</formula>
+    <label>Yearly Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
